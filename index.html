@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+<!--    material design icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!--    custom css -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  
+   
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <div class="container">
+ 	 <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+     <a class="nav-item nav-link" href="#">Como funciona</a>
+      <a class="nav-item nav-link active" href="#">Nosotros <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Blog</a>
+    
+    </div>
+    
+    <div class="navbar-nav ml-auto">
+    	  <a class="nav-item nav-link" href="#">Buscar talento</a>
+      <a class="d-flex nav-item nav-link btn btn-outline-info text-white" href="#">Solicitar talentos</a>
+    </div>
+  </div>
+ </div>
+</nav>
+
+  
+ <div class="container">
+	<main class="mt-3">
+	<div class="row">
+ 	
+<!-- 	Search filter panel -->
+ 	<div class="col-3 d-none d-lg-block">
+ 		<div class="card">
+ 			<div class="card-body">
+ 			<div class="d-flex mb-3 h5">
+ 			<i class="material-icons mr-2 text-muted">filter_list</i><span>Filtrar</span>
+ 			</div>
+ 			
+ 				<form action="">
+ 					<div class="form-group"><label for="">Genero</label><input type="text" placeholder='Genero' class="form-control form-control-sm"></div>
+ 					<div class="form-group"><label for="">Categoria</label><input type="text" placeholder='Categoria' class="form-control form-control-sm"></div>
+ 					<div class="form-group"><label for="">Fisico</label><input type="text" placeholder='Fisico' class="form-control form-control-sm"></div>
+ 					<div class="form-group"><label for="">Rango de edad</label><input type="text" placeholder='Rango de edad' class="form-control form-control-sm"></div>
+ 					<div class="form-group"><input type="submit" class="btn btn-dark btn-block" value='Buscar'></div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	
+ 	
+<!-- 	main content -->
+ 	<div class="col-lg-9 col-12">
+ 	
+<!--
+ 	<div class="row mb-3">
+ 		<div class="col">
+ 			<form action="">
+ 			
+ 		<label class="sr-only" for="quicksearch">Buscar</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text custom-input-group"><i class="material-icons text-muted">search</i></div>
+        </div>
+        <input type="text" class="form-control border-left-0" id="quicksearch" placeholder="Buscar por categoria, nombre, etc.">
+      </div>
+      
+ 		</form>
+ 		</div>
+ 	</div>
+-->
+ 	
+ 	
+ 	<div class="row mb-3">
+ 		<div class="col d-flex">
+ 			<div>
+ 				<a href="#" class="mr-2 d-flex btn btn-sm btn-dark">Borrar<i class="pl-2 material-icons">clear</i></a>
+ 			</div>
+ 			<div>
+ 				<a href="#" class="mr-2 d-flex btn btn-sm btn-dark">Enviar<i class="pl-2 material-icons">mail_outline</i></a>
+ 			</div>
+ 			<div>
+ 				<a href="#" class="mr-2 d-flex btn btn-sm btn-primary">Solicitar <i class="pl-2 material-icons">send</i></a>
+ 			</div>
+ 		</div>
+		<div class="col">
+			<small>1 talento seleccionado</small>
+
+		</div>
+ 	</div>
+ 	
+ 		<div class="row">
+ 			<div class="col-lg-4 col-md-4 col-6 mb-3">
+ 				<div class="card">
+ 					<div class='card-talent'>
+ 						<div class="card-img">
+ 						<small class="card-img-avalible"><span class="available-sign bg-success"></span>Disponible</small>
+ 							<img class="card-img-top" src="storage/talent/1.jpg" alt="">
+ 						</div>
+ 						<div class="card-body d-flex flex-column p-2">
+ 							<h6 class="d-inline-block text-truncate ">Nombre talento</h6>
+ 							<small class="text-muted d-block">Promotor/a</small>
+ 						</div>
+ 						<div class="card-footer p-2">
+ 							<a href="#" class="text-muted btn-icon">
+ 								<i class="material-icons md-18" data-toggle="tooltip" data-placement="top" title="Favorito">star</i>235
+ 							</a>
+ 							<a href="#" class="text-muted btn-icon">
+ 								<i class="material-icons md-18" data-toggle="tooltip" data-placement="top" title="Compartir">visibility</i>
+ 							</a>358
+ 							<a href="#" class="text-muted btn-icon">
+ 								<i class="material-icons md-18" data-toggle="tooltip" data-placement="top" title="Compartir">share</i>
+ 							</a>
+ 							
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 			 			
+ 			<div class="col-lg-4 col-md-4 col-6 mb-3">
+ 				<div class="card">
+ 					<div class='card-talent'>
+ 						<div class="card-img">
+ 					
+ 							<img class="card-img-top" src="storage/talent/13.jpg" alt="">
+ 						</div>
+ 						
+ <ul class="list-group list-group-flush">
+    <li class="list-group-item p-2">
+		<div class=" d-flex flex-column">
+			<h6 class="d-inline-block text-truncate">Nombre talento</h6>
+			<small class="text-muted d-block">Promotor/a</small>
+		</div> 
+   </li>
+    <li class="list-group-item text-muted p-2">
+	 	<i class="material-icons md-18">star</i>
+	 	<i class="material-icons md-18">share</i>
+	 </li>
+  </ul>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="col-lg-4 col-md-4 col-6 mb-3">
+ 				<div class="card">
+ 					<div class='card-talent'>
+ 						<div class="card-img">
+ 					
+ 							<img class="card-img-top" src="storage/talent/15.jpg" alt="">
+ 						</div>
+ 						
+			 <ul class="list-group list-group-flush">
+				<li class="list-group-item">
+					<div class=" d-flex flex-column">
+						<h6 class="d-inline-block text-truncate">Nombre talento</h6>
+						<small class="text-muted d-block">Promotor/a</small>
+					</div> 
+			   </li>
+				<li class="list-group-item text-muted">
+					<i class="material-icons md-18">star</i>
+					<i class="material-icons md-18">share</i>
+				 </li>
+			  </ul>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		
+ 		
+ 			<div class="col-lg-4 col-md-4 col-6 mb-3">
+ 				<div class="card">
+ 					<div class='card-talent'>
+ 						<div class=""><img class="img-fluid" src="storage/talent/4.jpg" alt="" class='card-img-top'></div>
+ 						<div class="card-body">
+ 							<span class="d-inline-block text-truncate">Nombre talento</span>
+ 							<small class="text-muted">Promotor/a</small>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			
+ 		</div>
+ 	</div>
+ 
+ 	
+ </div> 
+  
+  
+	
+</main>
+<!--  body container END -->
+</div>
+
+
+   
+   
+   
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    
+    <script>
+		$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+		})
+	  </script>
+  </body>
+</html>

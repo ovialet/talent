@@ -1,0 +1,265 @@
+body{
+	
+	background-color:  #F1F3F6;
+}
+
+h6{
+	font-size: .93rem;
+	margin: 0;
+}
+
+.bg-dark{
+	background-color: var(--color_dark) !important;
+}
+.bg-primary{
+	background-color: var(--color_primary) !important;
+	
+}
+
+.btn-dark{
+	background-color: var(--color_dark) !important;
+}
+
+.btn-primary{
+	background-color: var(--color_primary);
+	border: 1px solid var(--color_primary);
+}
+
+.container{
+/*	max-width: 1400px;*/
+}
+
+:root{
+	
+	--color_dark: #10262E;
+	--color_primary: #363c8d;
+	--radio_btn_color: var(--color_primary);
+}
+
+
+.navtwo{
+	height: 40px;
+	background-color: var(--color_dark);
+}
+
+/**************************************
+********** custom radio button**********
+***************************************/
+
+.custom__radio{
+/*	display: flex;*/
+}
+
+.custom__radio > label{
+/*	background-color: grey;*/
+	padding: 5px 6px;
+	margin: 0;
+	border: 1px solid  var(--radio_btn_color);
+	cursor: pointer;
+	
+}
+
+ .custom__radio input[type="radio"] + label{
+	color: var(--radio_btn_color);
+	 
+}
+
+.custom__radio input[type="radio"]:hover + label{
+	background-color: rgba(0, 123, 255, 0.05);
+
+}
+
+.custom__radio input[type="radio"]:checked + label{
+	color: white;
+	background-color:  var(--radio_btn_color);
+}
+
+.custom__radio input[type="radio"]{
+	display: none;
+}
+
+
+
+/**************************************
+******** custom checkbox button ********
+***************************************/
+
+
+.custom__checkbox{
+	display: flex;
+	width: 100% ;
+	justify-content: space-between;
+}
+
+.custom__checkbox--item > label{
+	background-color: transparent;
+	position: relative;
+	padding: 5px 6px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	border: 1px solid  var(--radio_btn_color);
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 10;
+
+	
+}
+
+.custom__checkbox--item > label:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--radio_btn_color);
+	transform: scale(.3);
+	opacity: 0;
+	transition: all .08s ease-in;
+	z-index: -1;
+}
+
+.custom__checkbox--item input[type="checkbox"]:checked + label:before{
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+ .custom__checkbox--item input[type="checkbox"] + label{
+	color: var(--radio_btn_color);
+	 
+}
+
+.custom__checkbox--item input[type="checkbox"]:hover + label{
+	background-color: rgba(0, 123, 255, 0.05);
+
+}
+
+.custom__checkbox--item input[type="checkbox"]:checked + label{
+	color: white;
+/*	background-color:  var(--radio_btn_color);*/
+}
+
+.custom__checkbox--item input[type="checkbox"]{
+	display: none;
+}
+
+
+
+
+
+/**************************************
+********** card talents **************
+***************************************/
+
+
+
+.card{
+	border-radius: 0;
+	border: none;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+}
+
+.card-footer{
+	border-top: 1px solid #e8e8e8;
+	background: #fcfcfc;
+}
+
+.card-body, .list-group-item{
+	padding: .8rem;
+}
+
+
+.card__talent__img{
+	position: relative;
+	max-height: 220px;
+	border-radius: 0;
+	overflow: hidden;
+}
+
+.card__talent__img:hover .card__talent__img--info{
+
+	opacity: 1;
+}
+
+.card__talent__img--info{
+	transition: all .15s ease-in-out;
+	position: absolute;
+	height: 60px;
+	z-index: 900;
+	color: white;
+	height: 100%;
+	width: 100%;
+
+	opacity: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, 0.2));
+}
+
+.card__talent__img--info > span{
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+	font-size: .85rem;
+	
+}
+
+.card__talent--body{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-img-avalible {
+	display: none;
+    position: absolute;
+    color: white;
+    bottom: .6rem;
+    left: .6rem;
+	background-color: rgba(0, 0, 0, 0.35);
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+
+.available-sign {
+    height: 13px;
+    width: 13px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+	margin-right: .4rem;
+	top: 2px;
+}
+
+/* Custom search */
+
+.custom-input-group{
+	background-color: white;
+	border-right: none;
+}
+
+.btn-icon{
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+/**************************************
+********** Material Icons **************
+***************************************/
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+
+
+
+
+
+
+
+
+
