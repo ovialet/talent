@@ -1,0 +1,77 @@
+.card__talent {
+
+	&__img {
+		position: relative;
+		overflow: hidden;
+			&--info {
+				position: absolute;
+				background-color: rgba(0, 0, 0, 0.29);
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				transition: all .2s ease;
+				
+				span{
+					color: white;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					transform: translateX(-50%) translateY(-50%);
+					border: 1px solid white;
+					border-radius: 4px;
+					padding: 5px 10px;
+				}
+			}
+			
+		&:hover &--info{
+			opacity: 1;
+		}
+		
+		}
+	
+
+	&--body {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-weight: 500;
+		font-size: .95rem;
+	}
+
+	&--name {
+		margin: 0;
+
+	}
+
+	&--footer{
+		text-align: center;
+		
+		.btn-icon {
+			font-size: 1.2rem;
+			margin-left: .25rem;
+			margin-right: .25rem;
+			padding-top: .3rem;
+			height: 2.1rem;
+			width: 2.1rem;
+			display: inline-block;
+			border-radius: 2rem;
+			line-height: 1rem;
+			border: 1px solid #e9e9e9;
+			text-align: center;
+			color: #464646;
+			transition: all .1s ease-in-out;
+			
+			&:hover{
+				background-color: $color-primary;
+				color: white;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
