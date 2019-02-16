@@ -1,15 +1,21 @@
-.bg-primary {
-  background-color: #363C8D !important; }
+.body {
+  background-color: #F1F3F6 !important; }
 
-.bg-dark {
-  background-color: #10262E !important; }
+.material-icons.md-18 {
+  font-size: 18px; }
+
+.material-icons.md-24 {
+  font-size: 24px; }
+
+.material-icons.md-36 {
+  font-size: 36px; }
+
+.material-icons.md-48 {
+  font-size: 48px; }
 
 /************************************************
 *************** bootstrap changes ****************
 *************************************************/
-.container {
-  max-width: 1400px; }
-
 .sr- {
   font-size: .9rem;
   margin-bottom: .2rem; }
@@ -22,6 +28,12 @@
 
 .card-body {
   padding: 10px; }
+
+.bg-primary {
+  background-color: #363C8D !important; }
+
+.bg-dark {
+  background-color: #10262E !important; }
 
 .btn-dark {
   background-color: #10262E;
@@ -63,11 +75,6 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); } }
 
 @media only screen and (max-width: 768px) {
-  /*
-		  .main__grid {
-			grid-template-columns: 1fr;
-		  }
-*/
   .talent__grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: .5rem; }
@@ -138,7 +145,7 @@
     font-size: 1.2rem;
     margin-left: .25rem;
     margin-right: .25rem;
-    padding-top: .3rem;
+    padding-top: .45rem;
     height: 2.1rem;
     width: 2.1rem;
     display: inline-block;

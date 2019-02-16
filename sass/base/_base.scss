@@ -1,23 +1,23 @@
-.bg-primary{
-	background-color: $color-primary !important;
+
+
+
+.body{
+	background-color: $color-body !important;
 }
 
-.bg-dark{
-	background-color: $color-dark !important;
-}
 
-
-
-
-
-
+//material icons
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
 /************************************************
 *************** bootstrap changes ****************
 *************************************************/
 
 .container{
-	max-width: 1400px;
+//	max-width: 1400px;
 }
 
 .sr-{
@@ -36,6 +36,15 @@
 .card-body{
 	padding: 10px;
 }
+
+.bg-primary{
+	background-color: $color-primary !important;
+}
+
+.bg-dark{
+	background-color: $color-dark !important;
+}
+
 
 .btn{
 	
