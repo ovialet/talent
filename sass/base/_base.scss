@@ -1,7 +1,7 @@
 
 
 
-.body{
+body{
 	background-color: $color-body !important;
 }
 
@@ -35,6 +35,9 @@
 
 
 
+
+
+
 //material icons
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
@@ -47,6 +50,19 @@
 
 .container{
 //	max-width: 1400px;
+}
+
+
+.modal-content{
+	border: none;
+	box-shadow: 0 2px 4px rgba(0,0,0,.3), 0 6px 50px rgba(0,0,0,.4);
+}
+//
+//.modal-backdrop{
+//	background-color: $dark;
+//}
+.fade{
+	
 }
 
 .badge-primary{
@@ -64,6 +80,11 @@
 
 .sticky-top{
 	top: 1rem;
+}
+
+.card{
+	border:none;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card-body{

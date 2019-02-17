@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: #F1F3F6 !important; }
 
 .icon__group {
@@ -35,6 +35,10 @@
 /************************************************
 *************** bootstrap changes ****************
 *************************************************/
+.modal-content {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 6px 50px rgba(0, 0, 0, 0.4); }
+
 .badge-primary {
   background-color: #363C8D; }
 
@@ -47,6 +51,10 @@
 
 .sticky-top {
   top: 1rem; }
+
+.card {
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
 
 .card-body {
   padding: 10px; }
@@ -128,6 +136,32 @@
       color: rgba(255, 255, 255, 0.8); }
   .nav-scroller .nav-underline .active {
     color: rgba(255, 255, 255, 0.8); }
+
+.footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  font-size: .90rem;
+  color: grey; }
+  .footer__title {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: grey; }
+  .footer__link {
+    display: block;
+    margin-bottom: 5px;
+    color: grey; }
+    .footer__link:hover {
+      color: grey; }
+  .footer__social {
+    font-size: 1.3rem; }
+    .footer__social--link {
+      color: grey; }
+      .footer__social--link:hover {
+        color: #949494; }
+      .footer__social--link:not(:last-child) {
+        margin-right: .6rem; }
+
+.card__talent:hover {
+  transition: all .3s ease; }
 
 .card__talent__img {
   position: relative;
@@ -219,6 +253,7 @@
   justify-content: space-between; }
   .custom__checkbox label {
     border: 1px solid #363C8D;
+    color: #363C8D;
     border-radius: 4px;
     padding: 4px 6px;
     position: relative;

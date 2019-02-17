@@ -1,0 +1,41 @@
+
+.footer{
+	border-top: 1px solid rgba(128, 128, 128, 0.2);
+	font-size: .90rem;
+	color: grey;
+	
+	&__title{
+		font-weight: 500;
+		text-transform: uppercase;
+		color: grey;
+	}
+	&__text{
+//		font-size: 1rem ;
+	}
+	&__link{
+		display: block;
+		margin-bottom: 5px;
+		color: grey;
+		&:hover{
+			color: grey;
+		}
+	}
+	
+	&__social{
+		font-size: 1.3rem;
+		
+		&--link{
+			color: grey;
+			
+			&:hover{
+				color: lighten(grey, 8);
+			}
+			
+			&:not(:last-child){
+				margin-right: .6rem;
+			}
+			
+		}
+		
+	}
+}
