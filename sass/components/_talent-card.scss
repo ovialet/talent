@@ -1,5 +1,11 @@
-.card__talent {
 
+.card__talent {
+	&:hover{
+//		box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+		transition: all .3s ease;
+//		transform: translateY(-4px);
+	}
+	
 	&__img {
 		position: relative;
 		overflow: hidden;
@@ -12,6 +18,7 @@
 				transition: all .2s ease;
 				
 				span{
+//					display: none; //change this to delete
 					color: white;
 					position: absolute;
 					left: 50%;
