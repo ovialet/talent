@@ -71,7 +71,7 @@
 
 <div class="nav-scroller bg-dark shadow-sm">
 	<nav class="nav nav-underline container">
-		<a href="#" class="nav-link active">Talentos <span class="badge badge-success">5</span></a>
+		<a href="#" class="nav-link active">Talentos <span class="talent-badge badge badge-success">5</span></a>
 		<a href="#" class="nav-link">¿Como funciona?</a>
 		<a href="#" class="nav-link">Nosotros</a>
 		<a href="#" class="nav-link">Beneficios</a>
@@ -86,8 +86,8 @@
     
       <div class="modal-header py-2 align-items-center">
 		<div >
-      		 <h5 class="modal-title mb-n2" id="exampleModalLabel">Erika Sanchez </h5>
-       		 <small class="badge badge-primary ">COD: 0023</small>
+      		 <h5 class="modal-title mb-n1 text-primary" id="exampleModalLabel">Erika Sanchez </h5>
+       		 <small class="badge badge-secondary ">COD: 0023</small>
         </div>
        
          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -183,9 +183,8 @@
      		</div>
           	</div>
           
-				<div class="d-flex justify-content-between my-2">
-					<div>
-          				<div class="card__talent--footer">
+				<div class="d-flex justify-content-between my-2 flex-wrap">
+					<div class="card__talent--footer">
 				
 					<a href="#" class="card__talent--footer btn-icon btn-icon-done" data-toggle="tooltip" data-placement="bottom" title="Seleccionar">
 						<i class="material-icons md-18">add</i>
@@ -196,7 +195,7 @@
 						<i class="material-icons md-18">star_border</i>
 					</a>
 					
-					<a href="#" class="card__talent--footer btn-icon btn-icon-share" data-toggle="tooltip" data-placement="bottom" title="Imprimir">
+					<a href="#" class="card__talent--footer btn-icon btn-icon-share d-none d-lg-inline-block" data-toggle="tooltip" data-placement="bottom" title="Imprimir">
 						<i class="material-icons md-18">print</i>
 					</a>
 					
@@ -205,9 +204,13 @@
 					</a>
 
 				</div>
-          			</div>
-          			<div>
-				<span>Clase: <span class="talent__class bg-warning  ">A</span></span>
+         			
+          			<div class="d-flex">
+          				<a href="#" class="btn btn-sm btn-danger d-flex">
+          				 <i class="material-icons d-inline-block pr-2">error_outline</i>Reportar
+          				</a>
+          			
+<!--						<span class="ml-3">Clase: <span class="talent__class bg-warning">A</span></span>-->
           			</div>
 				</div>
           	
@@ -250,8 +253,8 @@
 		<small class="text-muted">Av. Winston churchill no.6 Ens. Paraiso, Santo Domingo, Republica Dominicana.</small>
 
 	</div>
-     
 -->
+     
     </div>
   </div>
 </div>
@@ -864,19 +867,17 @@
 		
 	</main>
 	
-<div class="row">
-	<div class="col-12">
+	<div class="d-flex justify-content-center mt-5">
 		<nav aria-label="Page navigation">
 		  <ul class="pagination">
-			<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+			<li class="page-item"><a class="page-link" href="#">Anterior</a></li>
 			<li class="page-item"><a class="page-link" href="#">1</a></li>
 			<li class="page-item"><a class="page-link" href="#">2</a></li>
 			<li class="page-item"><a class="page-link" href="#">3</a></li>
-			<li class="page-item"><a class="page-link" href="#">Next</a></li>
+			<li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
 		  </ul>
 		</nav>
 	</div>
-</div>
 	
 
 </div>
@@ -890,7 +891,7 @@
    
    		<div class="row">
    		
-   		<div class="col-md-3 col-12">
+   		<div class="col-lg-3 col-md-6 col-12">
    			<p class="footer__title">
    				Company Name
    			</p>
@@ -899,19 +900,26 @@
    				<a class="footer__social--link" href=""><i class="fab fa-facebook"></i></a>
    				<a class="footer__social--link" href=""><i class="fab fa-instagram"></i></a>
    				<a class="footer__social--link" href=""><i class="fab fa-twitter"></i></a>
-   				<a class="footer__social--link" href=""><i class="fab fa-linkedin"></i></a>
+   				<a class="footer__social--link" href=""><i class="fab fa-linkedin-in"></i></a>
+				<a class="footer__social--link" href=""><i class="fab fa-youtube"></i></a>
+
+				<a class="footer__social--link" href=""><i class="fab fa-whatsapp"></i></a>
+				<a class="footer__social--link" href=""><i class="fab fa-telegram-plane"></i></a>
+
    			</div>
    		</div>
    		
-   		<div class="col-md-3 col-12">
+   		<div class="col-md-3 col-12 d-none d-lg-block">
    			<p class="footer__title">Links</p>
+			<a class="footer__link" href="#">Beneficios</a>
+   			<a class="footer__link" href="#">¿como funciona?</a>
    			<a class="footer__link" href="#">Nosotros</a>
    			<a class="footer__link" href="#">Contacto</a>
    			<a class="footer__link" href="#">Politicas de privacidad</a>
    			<a class="footer__link" href="#">Terminos y condiciones</a>
    		</div>
    		
-   		<div class="col-md-3 col-12">
+   		<div class="col-lg-3 col-md-6 col-12">
    			<p class="footer__title">Solicitar</p>
    			 <p class="footer__text">No encuentras el talento que andas buscando? Solicitanos el perfil que quieres y nosostros nos encargaremos de gestionarlo por ti.</p>
   		<a href="%#" class="btn btn-sm btn-primary">Solicitar talentos</a>

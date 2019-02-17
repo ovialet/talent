@@ -8,9 +8,9 @@
 	display: inline-block;
 
 	&--primary{
-		border-color: $color-primary;
+		border-color: lighten($color-primary, 50);
 		color: $color-primary;
-//		background-color: lighten($color-primary, 59);
+		background-color: lighten($color-primary, 55);
 	}
 	&--danger{
 		border-color: $danger;
