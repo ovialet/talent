@@ -26,7 +26,7 @@
   <body>
   
    
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
  <div class="container">
  	 <a class="navbar-brand" href="#">CompanyName</a>
  	 
@@ -48,20 +48,20 @@
   
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-<!--
-     <a class="nav-item nav-link" href="#">¿Como funciona?</a>
-     <a class="nav-item nav-link" href="#">Beneficios</a>
-      <a class="nav-item nav-link " href="#">Nosotros</a>
-      <a class="nav-item nav-link" href="#">Blog</a>
-       <a class="nav-item nav-link" href="#">Contacto</a>
--->
+    
+    <a href="#" class="nav-item nav-link active">Talentos <span class="talent-badge badge badge-success">5</span></a>
+		<a href="#" class="nav-item nav-link">¿Como funciona?</a>
+		<a href="#" class="nav-item nav-link">Nosotros</a>
+		<a href="#" class="nav-item nav-link">Beneficios</a>
+		<a href="#" class="nav-item nav-link">Contacto</a>
+
     
     </div>
     
     <div class="navbar-nav ml-auto">
    
-      <a class="nav-item nav-link btn btn-session" href="#">Iniciar Sesión</a>
-	  <a class="nav-item nav-link btn btn-register" href="#">Registrate</a>
+      <a class="nav-item nav-link btn btn-outline-light" href="#">Iniciar Sesión</a>
+	  <a class="nav-item nav-link text-white btn btn-primary ml-2" href="#">Registrate</a>
 
     </div>
     
@@ -69,14 +69,14 @@
  </div>
 </nav>
 
-<div class="nav-scroller bg-dark shadow-sm">
-	<nav class="nav nav-underline container">
-		<a href="#" class="nav-link active">Talentos <span class="talent-badge badge badge-success">5</span></a>
-		<a href="#" class="nav-link">¿Como funciona?</a>
-		<a href="#" class="nav-link">Nosotros</a>
-		<a href="#" class="nav-link">Beneficios</a>
-		<a href="#" class="nav-link">Contacto</a>
-	</nav>
+
+<div class="container mt-3">
+	<div class="talent-banner">
+		<div class="jumbotron jumbotron-edit text-center shadow-sm mb-0">
+			<h2>¡Encuentra el talento que quieres!</h2>
+			<span>CompanyName te ayuda a gestionar talento de manera facil.</span>
+		</div>
+	</div>
 </div>
 
 
@@ -232,6 +232,10 @@
 						<span class="tags tags--primary">Promocion</span>
 						<span class="tags tags--primary">Hostess</span>
 						<span class="tags tags--primary">Bailarin</span>
+						<span class="tags tags--primary">Merchandising</span>
+						<span class="tags tags--primary">Implusador</span>
+
+
 
           			</div>
           		</div>
@@ -411,7 +415,7 @@
 					
 					
 					<a href="#" class="card__talent--footer btn-icon" data-toggle="tooltip" data-placement="bottom" title="Favorito">
-						<i class="material-icons md-18">star_border</i>
+						<i class="material-icons md-18">favorite_border</i>
 					</a>
 					
 					<a href="#" class="card__talent--footer btn-icon btn-icon-share" data-toggle="tooltip" data-placement="bottom" title="Compartir">
@@ -891,7 +895,7 @@
    
    		<div class="row">
    		
-   		<div class="col-lg-3 col-md-6 col-12">
+   		<div class="col-lg-3 col-md-6 col-12 mb-5">
    			<p class="footer__title">
    				Company Name
    			</p>
@@ -922,11 +926,17 @@
    		<div class="col-lg-3 col-md-6 col-12">
    			<p class="footer__title">Solicitar</p>
    			 <p class="footer__text">No encuentras el talento que andas buscando? Solicitanos el perfil que quieres y nosostros nos encargaremos de gestionarlo por ti.</p>
-  		<a href="%#" class="btn btn-sm btn-primary">Solicitar talentos</a>
+  		<a href="#" class="btn btn-sm btn-primary">Solicitar talentos</a>
    		</div>
    		
    		<div class="col-md-3 col-12">
-   			
+   			<p class="footer__title">Contacto</p>
+   			<p class="footer__text">
+   			<a class="footer__link" href="#"><i class="fab fa-whatsapp"></i> 809-913-4343</a>
+   				hola@companyname.com
+			<a class="footer__link" href="#">Soporte</a>
+
+   			</p>
    		</div>
    	</div>
    	</div>
